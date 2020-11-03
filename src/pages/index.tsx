@@ -2,6 +2,9 @@ import React from 'react'
 import Head from 'next/head'
 
 import { Link } from '@material-ui/core'
+import Hero from './../pages-sections/Components-Sections/Hero';
+
+
 
 const Home: React.FC = () => {
   return (
@@ -11,6 +14,7 @@ const Home: React.FC = () => {
       </Head>
 
       <main>
+        <Hero></Hero>
         <ul>
           <li>
             <Link href={'/order/create'}>Sample Create Order</Link>

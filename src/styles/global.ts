@@ -10,5 +10,12 @@ export default createGlobalStyle`
     background: ${props => props.theme.colors.background};
     color: ${props => props.theme.colors.text};
     font: 400 16px Roboto, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    overflow: visible;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    position: relative;
   }
+
   `
